@@ -3,20 +3,31 @@ html {
     width: 100%;
     height: 100%;
 }
-.banner_img{
-   padding-top: 75px;
-   padding-bottom: 110px;
-   color: #f8f8f8;
-   background-image: url('img/background.jpg');
-   background-repeat:no-repeat;
-   background-size: cover;
+
+.banner_img {
+    padding-top: 75px;
+    padding-bottom: 110px;
+    color: #f8f8f8;
+    background-image: url('img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-body{
+
+body {
     width: 100%;
-    height:100%;
-    
+    height: 100%;
+
 }
-.banner_content{
+
+.modal-header,
+.close {
+    background-color: #33FF3E;
+    color: black !important;
+    text-align: center;
+    font-size: 50px;
+}
+
+.banner_content {
     position: relative;
     padding-top: 6%;
     padding-bottom: 6%;
@@ -26,39 +37,91 @@ body{
     max-width: 660px;
     font-family: 'Sofia';
 }
-.flogotxt{
-color: #3379FF;
-font-family: 'Poppins';
+
+.flogotxt {
+    color: #3379FF;
+    font-family: 'Poppins';
 }
-.slogotxt{
-color: #33FF3E;
-font-family: 'Poppins';
+
+.slogotxt {
+    color: #33FF3E;
+    font-family: 'Poppins';
 }
-a{
+
+a {
     font-family: 'Play';
 }
-.bac{
+
+.bac {
     background-color: #2c6ed5;
 }
-.ban{
+
+.ban {
     background-color: #fa4251;
 }
-#login-panel .panel-footer{
-    font-weight:normal;
+
+#login-panel .panel-footer {
+    font-weight: normal;
 }
-.red{
-    color:red;
+
+.red {
+    color: red;
 }
-.panel-footer{
-     color:5633FF;
- }
- .success_style{
-font-family: 'Sofia';
- }
+
+.panel-footer {
+    color: 5633FF;
+}
+
+.success_style {
+    font-family: 'Sofia';
+}
+
 table {
     border-collapse: separate;
     border-spacing: 1em;
 }
-.red{
-    color:red;
+
+.red {
+    color: red;
+}
+
+.row {
+    display: flex;
+}
+
+.left {
+    background-color: #aa80ff;
+    margin-left: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.lmiddle {
+    background-color: #f54287;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rmiddle {
+    background-color: #011638;
+    margin-left: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.right {
+    background-color: #ffff1a;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }

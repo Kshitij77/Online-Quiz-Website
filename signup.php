@@ -19,7 +19,7 @@
             <br><br><br><br><br><br><br><br>
             <div class="container-fluid decor_bg" id="content">
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3">
+                <div class="col-xs-12 col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3">
                     <div class="panel panel-primary" style="font-family:'Poppins'">
                         <div class="panel-heading">
                             <h4>SignUp</h4>
