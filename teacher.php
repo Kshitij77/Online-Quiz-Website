@@ -23,12 +23,12 @@ require("includes/common.php");
     ?>
     <div class="row">
         <div class="left col-xs-4" style="height:69rem;">
-            <img src="img/subject.png">
+            <img src="img/subjects.png">
             <br><br>
             <a href="subjects.php" class="btn btn-danger btn-lg active">Subjects</a>
         </div>
         <div class="lmiddle col-xs-4">
-            <img src="img/qu.jpg">
+            <img src="img/quizz.jpg">
             <br><br>
             <a href="view_quiz.php" class="btn btn-danger btn-lg active">Quizzes</a>
         </div>

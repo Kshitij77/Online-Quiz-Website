@@ -91,12 +91,11 @@ table {
 
 .left {
     background-color: #aa80ff;
-    margin-left: 1.6rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 1rem;
+    min-height: 30rem !important;
 }
 
 .lmiddle {
@@ -105,23 +104,23 @@ table {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    min-height: 30rem !important;
 }
 
 .rmiddle {
     background-color: #011638;
-    margin-left: 1.6rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 1rem;
+    min-height: 30rem !important;
 }
 
 .right {
     background-color: #ffff1a;
-    right: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    min-height: 30rem !important;
 }

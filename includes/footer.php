@@ -3,7 +3,6 @@
     float: left;
     width: 33.33%;
     padding: 5px;
-
   }
 
   footer {
@@ -13,7 +12,6 @@
     width: 100%;
     bottom: 0;
     font-weight: 300;
-
   }
 </style>
 <footer style="font-family: 'Poppins'">

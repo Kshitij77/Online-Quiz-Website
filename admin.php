@@ -22,20 +22,20 @@ require("includes/common.php");
     include 'includes/admin_header.php';
     ?>
     <div class="row">
-        <div class="left col-xs-6" style="padding: 1.8rem 0rem;">
-            <img src="img/courses.png">
+        <div class="left col-xs-6" style="padding: 8rem 0rem;">
+            <img src="img/courses.jpg">
             <br><br>
             <a href="courses.php" class="btn btn-danger btn-lg active">Courses</a>
         </div>
         <div class="lmiddle col-xs-6">
-            <img src="img/subject.png">
+            <img src="img/subjects.png">
             <br><br>
             <a href="subjects.php" class="btn btn-danger btn-lg active">Subjects</a>
         </div>
     </div>
     <div class="row">
-        <div class="rmiddle col-xs-6" style="padding: 1.6rem 0rem;">
-            <img src="img/qu.jpg">
+        <div class="rmiddle col-xs-6" style="padding: 8rem 0rem;">
+            <img src="img/quizz.jpg">
             <br><br>
             <a href="view_quiz.php" class="btn btn-danger btn-lg active">Quizzes</a>
         </div>

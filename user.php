@@ -22,25 +22,25 @@ require("includes/common.php");
     include 'includes/user_header.php';
     ?>
     <div class="row">
-        <div class="left col-xs-6">
-            <img src="img/courses.png">
+        <div class="left col-xs-6" style="padding: 8rem 0rem;">
+            <img src="img/courses.jpg">
             <br>
             <a href="user_courses.php" class="btn btn-danger btn-lg active">Courses</a>
         </div>
-        <div class="lmiddle col-xs-6">
-            <img src="img/history.jpg">
+        <div class="lmiddle col-xs-6" style="padding: 8rem 0rem;">
+            <img src="img/history.png">
             <br>
             <a href="history.php?id=<?php echo $_SESSION['user_id']; ?>" class="btn btn-danger btn-lg active">History</a>
         </div>
     </div>
     <div class="row">
-        <div class="rmiddle col-xs-6">
-            <img src="img/qu.jpg">
+        <div class="rmiddle col-xs-6" style="padding: 8rem 0rem;">
+            <img src="img/quizz.jpg">
             <br><br>
             <a href="user_view_quiz.php" class="btn btn-danger btn-lg active">Quizzes</a>
         </div>
-        <div class="right col-xs-6">
-            <img src="img/subject.png">
+        <div class="right col-xs-6" style="padding: 8rem 0rem;">
+            <img src="img/subjects.png">
             <br><br>
             <a href="user_subjects.php" class="btn btn-danger btn-lg active">Subjects</a>
         </div>
